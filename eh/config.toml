@@ -1,0 +1,5 @@
+baseURL = 'http://ei5uke.github.io'
+languageCode = 'en-us'
+title = 'Eisuke'
+
+theme = "cactus"
