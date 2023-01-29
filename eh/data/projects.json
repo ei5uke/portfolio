@@ -1,0 +1,29 @@
+{
+    "list": [
+      {
+        "name":"RLnet",
+        "url":"https://github.com/ei5uke/RLnet",
+        "desc":"Introductory Obsidian markdown notes related to Reinforcement Learning."
+      },
+      {
+        "name":"Mario, Please Jump",
+        "url":"https://medium.com/@eisukeh/mario-please-jump-an-informal-blog-detailing-my-journey-and-struggles-with-deep-reinforcement-a045cbd51a17",
+        "desc": "An Informal Blog detailing My Journey and Struggles with Deep Reinforcement Learning"
+      },
+      {
+        "name":"WaldoStreet",
+        "url":"https://github.com/ei5uke/WaldoStreet",
+        "desc": "Essentially Where's Waldo? in Google Maps."
+      },
+      {
+        "name":"Movie Recommender Website",
+        "url":"https://github.com/milindlalwani/Movie_Recommendation",
+        "desc": "Recommends 10 movies based on one you've watched."
+      },
+      {
+        "name":"ediSON",
+        "url":"https://github.com/KarlWithK/ediSON",
+        "desc": "A glorified JSON text editor. A JSON editor."
+      }
+    ]
+  }

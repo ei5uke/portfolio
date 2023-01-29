@@ -1,0 +1,24 @@
+{{ define "main" }}
+<link rel="icon" type="image/x-icon" href="/logos/favicon.ico">
+<style>  
+    iframe {
+      float: center;
+    }
+    img {
+      float: center;
+    }
+</style>
+<body>
+    <p>
+        This is my NYU UGSRP project working with PhD candidate Wenyu Han, under the guidance of Prof. Chen Feng. We performed research on a rearrangement task w/o GT pose (since many papers on these tasks often require GT pose).
+    </p>
+    <iframe width="705" height="400" src="https://www.youtube.com/embed/_bogsaTuQNo" title="Learning to Simultaneously Navigate and Manipulate with Deep Q-Learning for Mobile Rearrangement" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>
+        More information is on the following poster.
+    </p>
+    <img src={{.Params.img}}> 
+    <p>
+        With anything new for the project, I'll be updating this site to explain my contributions. 
+    </p>
+</body>
+{{ end }}

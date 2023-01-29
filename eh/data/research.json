@@ -1,0 +1,14 @@
+{
+    "list": [
+      {
+        "name": "A Love Letter to Knowledge-Based Reinforcement Learning",
+        "url": " ",
+        "desc": "A simple, brief explanation/introduction to Knowledge-Based Reinforcement Leraning."
+      }, 
+      {
+        "name":"Learning to Simultaneously Navigate and Manipulate with Deep Q-learning for Mobile Rearrangement",
+        "url":" ",
+        "desc":"NYU UGSRP project working with PhD candidate Wenyu Han, under the guidance of Prof. Chen Feng. Research on rearrangement task w/o GT pose."
+      }
+    ]
+  }
