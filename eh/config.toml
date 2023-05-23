@@ -37,7 +37,7 @@ weight = 1
   showAllPostsArchive = false # default
 
   # Home page settings
-  description = "Welcome welcome. Here you can find updates on whatever I'm currently doing at the moment. Have a fun stay :>"
+  description = "Welcome welcome. In this blog, you can find updates on whatever I'm currently doing at the moment. Have a fun stay :>"
 
   logo = "logos/kittykat.png"
 
@@ -52,6 +52,9 @@ weight = 1
   [[params.social]]
     name = "linkedin"
     link = "https://www.linkedin.com/in/eisukeh/"
+  [[params.social]]
+    name = "scholar"
+    link = "https://scholar.google.com/citations?user=NBvMsAMAAAAJ&hl=en&oi=ao"
   [[params.social]]
     name = "email"
     link = "ehirota13@gmail.com"  # no need for "mailto:" in the head
