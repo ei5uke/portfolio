@@ -3,5 +3,5 @@
 	url = https://github.com/monkeyWzr/hugo-theme-cactus.git
 [submodule "eh/public"]
 	path = eh/public
-	url = dfsjsiod
+	url = https://github.com/ei5uke/ei5uke.github.io.git
 	branch = main
