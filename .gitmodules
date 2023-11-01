@@ -2,6 +2,6 @@
 	path = eh/themes/cactus
 	url = https://github.com/monkeyWzr/hugo-theme-cactus.git
 [submodule "eh/ei5uke.github.io"]
-	path = eh/ei5uke.github.io
+	path = eh/public
 	url = https://github.com/ei5uke/ei5uke.github.io.git
 	branch = main
