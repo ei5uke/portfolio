@@ -1,5 +1,6 @@
 ---
 title: about me
-img: /img/looking_so_emotional.JPG
+img: /img/me.png
 layout: single
+cv: /docs/eisuke_resume.pdf
 ---

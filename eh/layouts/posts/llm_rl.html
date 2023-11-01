@@ -1,0 +1,234 @@
+{{ define "main" }}
+<link rel="icon" type="image/x-icon" href="/logos/favicon.ico">
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+<style>  
+    iframe {
+      float: center;
+    }
+    img {
+      float: center;
+    }
+</style>
+<body>
+
+    <p>
+        Recently, Large Language Models (LLM) have captured huge public attention with the release of ChatGPT. I personally 
+        find it hilarious how the news spread like wildfire; TV networks nowadays in Japan continue repeating buzzwords like 
+        <i>AI</i> and <i>IoT</i> due to ChatGPT, more than half-a-year after I first heard of it last September.
+    </p>
+
+    <p>
+        LLMs such as ChatGPT (along with the rest of the GPT family and other models) have extensive usage for its Natural 
+        Language Processing (NLP) capabilities. We see its overwhelming strength through asking these models jokes or 
+        to even write our college admission essays [1, 2].
+    </p>
+
+    <figure style="display:block; margin: auto; width:75%">
+        <img src={{.Params.tiktok}} style="display:block; margin: auto; width:100%" > 
+        <figcaption>jesus christ 5.8 billion views on chatgpt + cheating</figcaption>
+    </figure> 
+
+    <p>
+        LLMs accomplish such feats through understanding commonsense knowledge. Hence, rather than solely harnessing an LLM for 
+        its speech capabilities, we can leverage it for an orthogonal application - physical tasks. In other words, LLMs have 
+        the power to solve sequential decision making tasks. 
+    </p>
+
+    <p>
+        This means we can use <b>LLMs in conjunction with RL (!!)</b>. In fact, researchers have recognized this and have 
+        published papers that highlight the strength of LLM+RL. 
+    </p>
+
+    <p>
+        In this blog, I'll:
+    </p>
+    <ul>
+        <li style="color:#3056ff">briefly refresh our comprehension of LLMs through the lens of GPT</li>
+        <li style="color:#f84d7a">survey LLM+RL papers</li>
+        <li style="color:#3d8041">hypothesize future usage of LLM and RL</li>
+    </ul>
+
+    <p style="font-size:1.2vw; color:#3056ff">&#13145 Let's recollect what LLMs do!</p> 
+
+    <p>
+        <span style="color:#3056ff">&#5463</span> Let's start from the beginning: Transformers! <span style="color:#3056ff">&#5465</span>
+    </p>
+
+    <p>
+        The authors of [3] <i style="color:gray;">(I relate to the title of this paper too much)</i> introduce a new 
+        Deep Learning model structure, a <b>"Transformer."</b>
+    </p>
+
+    <figure style="display:block; margin: auto; width:75%">
+        <img src={{.Params.transformer}} style="display:block; margin: auto; width:50%" > 
+        <figcaption>Original Transformer pipeline figure</figcaption>
+    </figure> 
+
+<!--
+    <p>
+        Explain how transformers work
+    </p>
+-->
+
+    <p>
+        This proposed idea experienced increased performance compared to models with usage of memory (LSTMs) or convolution
+        in NLP-related tasks. In fact, due to its significant performance, researchers have modified the Transformer architecture 
+        to extend its usage in other tasks such as Visual Transformers [4] (computer vision) and Preference Transformers [5]
+        (preference-based RL).
+    </p>
+
+    <p>
+        <span style="color:#3056ff">&#5463</span> So, researchers have also extended Transformers into LLMs! <span style="color:#3056ff">&#5465</span>
+    </p>
+
+    <p>
+        Particularly, researchers at OpenAI have used Transformers to create their famous LLM - Generative Pre-trained 
+        Transformer (GPT) [6-8]. In [7], Radford et al. introduce a different method of training LLMs - <i>
+        generative pre-training </i> followed by <i>discriminitive fine-tuning.</i> Through this method, we first initialize 
+        the parameters of the LLM, and then we fine-tune them for various tasks. For an analogy, we can imagine that this is 
+        similar to how stem cells function or MAML by Finn et al. [9], but in training rather than in the model structure.
+        <i style="color:gray;">Interestingly, I've heard that this has become somewhat of the industry norm for training 
+        LLMs during my attendance of a candidate professor's talk.</i>
+    </p>
+
+    <p>
+        <span style="color:#3056ff">&#5463</span> How was GPT trained? <span style="color:#3056ff">&#5465</span>
+    </p>
+
+    <p>
+        Radford et al. [7] train GPT using the standard language modeling objective to maximize the following likelihood 
+        <span style="color:#e16c6c">equation:</span>
+    </p>
+
+    <blockquote style="text-align:center; padding: 15px; background: #e16c6c; border-radius: 5px;">
+        \(
+            \begin{array}{c}
+            L_1(\mathcal{U}) = \sum\limits_{i} \log P(u_i | u_{i-k}, ... , u_{i-1}; \Theta)
+            \end{array}
+        \)
+    </blockquote>
+
+    <p>
+        where \(\mathcal{U} = (u_1, ... , u_n)\) is an unsupervised corpus of tokens and \(\Theta\) refers to the
+        parameters of the LLM. Intuitively, by maximizing <span style="color:#e16c6c">this likelihood equation</span>, 
+        <b>we incentivize the LLM to understand common sentence structure and word relations.</b> Accomplishing this training phase, 
+        the LLM can now provide cohesive text outputs given various inputs and the task at hand - \(p(output | input, task)\) [8]. 
+    </p>
+    <p>
+        Besides this, GPT has a Transformer decoder model structure, that is, the authors only apply the Attention decoder network
+        and throw away the encoder network. This means that, looking back to the original Transformer pipeline figure, GPT does 
+        not contain the left column of the figure. Alongside this structure, the authors of [10] also combine the input and output 
+        sequences into a "single sentence." Rather than using the Transformer structure to map inputs of \((m^1, ..., m^\eta)\) to 
+        outputs of \((y^1, ..., y^\eta)\), the authors combine these into the sentence \((m^1,...,m^n,\delta,y^1,...,y^\eta)\) = 
+        \((w^1, ..., w^{n+\eta+1})\), where \(\delta\) is a sentence separator token, and maximize this 
+        <span style="color:#e8a5d2">new likelihood equation:</span>
+    </p>
+
+    <blockquote style="text-align:center; padding: 15px; background: #e8a5d2; border-radius: 5px;">
+        \(
+            \begin{array}{c}
+            p(w^1,...,w^{n+\eta+1}) = \prod\limits_{j=1}^{n+\eta+1}p(w^i | w^1,...,w^{j-1})
+            \end{array}
+        \)
+    </blockquote>
+
+    <p>
+        <span style="color:#e8a5d2">This new equation:</span> compels the LLM to predict both \(m\) and \(y\), as well as 
+        maintain attention from both of them. Furthermore, this model structure potentially cuts out unnecessary, redundant 
+        training from the existance of both an encoder and a decoder. From such implementations, GPT performs 
+        effectively, even with inputs of long text sequences.
+    </p>
+
+    <p style="font-size:1.2vw; color:#f84d7a">&#13146 LLMS + RL performance</p> 
+
+    <p>
+        We've so far learned how LLMs are trained and perform. How can we now apply them to sequential decision making tasks 
+        and potentially use them in conjunction with RL?
+    </p>
+
+    <p>
+        <span style="color:#f84d7a">&#5463</span> Method #1: prompt engineering + caption similarity <span style="color:#f84d7a">&#5465</span>
+    </p>
+
+    <p>
+        The idea is to utilize the output dialogue by LLMs as instructions or commands for an agent. For example, let's 
+        say an embodied, cleaning agent is currently situated with the task to make up the room. Compiling all the information 
+        of the agent, the task, and the setting, we can then feed this assortment into our LLM which provides guidelines for 
+        what actions our agent should take. 
+    </p>
+
+    <p>
+        [11] follow this approach. <i style="color:gray;">This is a paper my lab covered together during a meeting!</i>
+        The authors task an agent to complete the <i>Crafter</i> and <i>Housekeep robotic simulator</i> tasks with their algorithm
+        - ELLM (Exploring with LLMs). The authors recognize that, in some tasks, reward schemes are often too sparse for a 
+        naive agent to explore effectively. Hence, using an LLM that has commonsense knowledge, we can sufficiently provide 
+        guidance for the agent.
+    </p>
+
+    <p>
+        The authors rely on two things: (1) <i>prompt engineering</i> and (2) <i>captioning.</i>
+    </p>
+
+    <p>
+        <i>Prompt engineering</i> is the idea mentioned before where we well-define the information fed into the LLM. 
+        With good prompt engineering, the authors can ask the LLM for recommended actions to take, and guarantee an easy-to-parse 
+        syntax such as: 1) Cut down the tree. 2) Dig in grass. 3) Attack the cow.
+    </p>
+
+    <p>
+        <i>Captioning</i> is a mechanism to capture in text, a description of the current observation. The authors use a 
+        transition captioner to describe the action that the agent had taken in text.
+    </p>
+
+    <p>
+        With both of these combined, the authors use <span style="color: #2dd3a7">this equation:</span>
+    </p>
+
+    <blockquote style="text-align:center; padding: 15px; background: #2dd3a7; border-radius: 5px;">
+        \(
+            \begin{array}{c}
+            R_{\text{intrinsic}} = \dfrac{E(C_{\text{transition}}(o,a,o'))\cdot E(g)}{||E(C_{\text{transition}}(o,a,o'))|| ||E(g)||}
+            \end{array}
+        \)
+    </blockquote>
+
+    <p>
+        where \(E(\cdot)\) is a latent representation of the transition captioning, \(C_{\text{transition}}\), or LLM output, 
+        \(g\). <span style="color: #2dd3a7">This equation</span> calculates the <i>cosine similarity</i> between the two 
+        parameters, and directly uses this similarity as an intrinsic reward for the agent. Expressly, we intrinsically reward 
+        the agent on the basis of whether it follows similar protocol to what the LLM recommends. From this, even in a task 
+        with sparse rewards, the agent can efficiently explore the state space, and the authors empirically observe improved results.
+    </p>
+
+    <p>
+        <span style="color:#f84d7a">&#5463</span> Method #2: LLM + Value functions <span style="color:#f84d7a">&#5465</span>
+    </p>
+
+    <p>
+        <i style="color:gray;">This paper has singlehandedly spiked my interest in learning for robotics lol</i>
+    </p>
+
+    <p>
+        dfjdio
+    </p>
+
+    
+    <p style="font-size:1.2vw; color:#c0b111">&#5133 References</p> 
+    [1] Rim. ChatGPT's College Admissions Essay Made These 5 Common Mistakes. Forbes 2023.<br>
+    [2] Chai. Can ChatGPT Write a Good College-Admissions Essay? NYMag Intelligencer 2023.<br>
+    [3] Vaswani et al. Attention Is All You Need. NIPS 2017.<br>
+    [4] Dosovitskiy et al. AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE. ICLR 2021.<br>
+    [5] Kim et al. PREFERENCE TRANSFORMER: MODELING HUMAN PREFERENCES USING TRANSFORMERS FOR RL. ICLR 2023. <br>
+    [6] Brown et al. Language Models are Few-Shot Learners. OpenAI 2020. <br>
+    [7] Radford et al. Improving Language Understanding by Generative Pre-Training. OpenAI 2018. <br>
+    [8] Radford et al. Language Models are Unsupervised Multitask Learners. OpenAI 2019. <br>
+    [9] Finn et al. Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks. ICML 2017. <br>
+    [10] Liu et al. GENERATING WIKIPEDIA BY SUMMARIZING LONG SEQUENCES. ICLR 2018. <br>
+    [11] Du et al. Guiding Pretraining in Reinforcement Learning with Large Language Models. ICML 2023. <br>
+    [12] Ahn et al. Do As I Can, Not As I Say: Grounding Language in Robotic Affordances. Google 2022. <br>
+
+</body>
+{{ end }}

@@ -1,9 +1,14 @@
 {
     "list": [
       {
+        "name":"David DeFazio, Eisuke Hirota, Shiqi Zhang. Seeing-Eye Quadruped Navigation with Force Responsive Locomotion Control. Conference on Robot Learning, 2023.",
+        "url":"https://bu-air-lab.github.io/guide_dog/",
+        "number": "[1]"
+      },
+      {
         "name":"Wenyu Han, Haoran Wu, Eisuke Hirota, Alexander Gao, Lerrel Pinto, Ludovic Righetti, Chen Feng. Learning Simultaneous Navigation and Construction in Grid Worlds. International Conference on Learning Representations, 2023.",
         "url":"https://ai4ce.github.io/SNAC/",
-        "number": "[1]"
+        "number": "[2]"
       }
     ]
   }
