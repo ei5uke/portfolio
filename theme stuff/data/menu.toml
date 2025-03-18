@@ -1,0 +1,36 @@
+[[entries]]
+title = "about me"
+
+  [[entries.entries]]
+  title = "research bio"
+  url = "posts/me"
+  
+  [[entries.entries]]
+  title = "<a target='_blank' rel='noopener noreferrer' href='https://scholar.google.com/citations?user=NBvMsAMAAAAJ&hl=en&oi=ao'>google scholar</a>, <a target='_blank' rel='noopener noreferrer' href='https://github.com/ei5uke'>github</a>, <a target='_blank' rel='noopener noreferrer' href='https://www.goodreads.com/user/show/175425792-eisuke-hirota'>goodreads</a>, <a target='_blank' rel='noopener noreferrer' href='https://myanimelist.net/mangalist/nabirin?status=7&tag='>mangalist</a>"
+
+[[entries]]
+title = "publications"
+
+  [[entries.entries]]
+  title = "<a target='_blank' rel='noopener noreferrer' href='https://bu-air-lab.github.io/guide_dog/'>David DeFazio, Eisuke Hirota, Shiqi Zhang. Seeing-Eye Quadruped Navigation with Force Responsive Locomotion Control. Conference on Robot Learning, 2023.</a>"
+
+  [[entries.entries]]
+  title = "<a target='_blank' rel='noopener noreferrer' href='https://ai4ce.github.io/SNAC/'>Wenyu Han, Haoran Wu, Eisuke Hirota, Alexander Gao, Lerrel Pinto, Ludovic Righetti, Chen Feng. Learning Simultaneous Navigation and Construction in Grid Worlds. International Conference on Learning Representations, 2023.</a>"
+
+[[entries]]
+title = "blog"
+
+  [entries.post_list]
+  limit = 3
+  show_more = true
+  show_more_text = "all posts..."
+  show_more_url = "posts/posts"
+  
+[[entries]]
+title = "friends awesome websites"
+
+  [[entries.entries]]
+  title = "<a target='_blank' rel='noopener noreferrer' href='https://seniormars.com/'>SeniorMars</a>"
+
+  [[entries.entries]]
+  title = "<a target='_blank' rel='noopener noreferrer' href='https://bosonphoton.github.io/'>Chelsea</a>"

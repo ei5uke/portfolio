@@ -1,0 +1,42 @@
++++
+title =  "Ai/Robots in Fiction ver. 6 -- Summer Wars"
+date = 2025-02-27T13:34:54+02:00
+draft = false
++++
+
+To my former labmate and friend [Yohei Hayamizu](https://yoheihayamizu.github.io/yhayamizu/), Summer Wars was one of the more influential works that sparked his decision to enter robotics, AI, and in general, higher technology. And for 6-year-old me when I first watched it, I could not agree more. The breathtaking music, animation, and crazy breadth in terms of technology is just Hyminal to any tech junkie.
+
+![](https://i.imgur.com/HmjQrtJ.png)
+*Summer Wars Poster*
+
+Summer Wars is at its core, a story that revolves around the setting of future Japan, and the integration of Oz, a digital world akin to a [metaverse](https://en.wikipedia.org/wiki/Metaverse), in Japanese society. Oz is heavily engrained within every aspect of society - from mainly acting as a social media hub to a control unit for various physical “computerized” entities like fire hydrants and traffic signals (we’ll get back to this second point later). Everyone has their own customized characters that represent their identities, and Oz acts as a second society for people. Users can participate in various events, transactions, and games within this digital world, e.g., one of the protagonist’s allies, alias King Kazuma, is famous in Oz for being the number one hand-to-hand combat fighter.
+
+![](https://i.pinimg.com/originals/37/e6/0c/37e60c0bb0420978c634708bf1b8be76.gif)
+*THE GOAT, THE LEGEND, KING KAZUMA!! (the bunny humanoid with the red vest)*
+
+Overall, the plot follows a math prodigy Kenji hired to act as the boyfriend of his classmate Natsuki over summer vacation. Here, the duo travel back to Natsuki’s home back in the countryside, and we meet her family and watch a grand party evolve regarding around a family gathering in the humid, blazing August heat. Kenji opens up to Natsuki’s family and they all take a liking to him - and at the end there’s a little cute kiss scene between the two, so if you’re looking not just for sci-fi but also for romance, then this is a great sweet movie!
+
+![](https://steamuserimages-a.akamaihd.net/ugc/938339806457809695/84FEBBC22B38EEBC0B37403FE6D9B94C76689067/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
+*Kiss <3<3<3*
+
+Back to the tech side now: this movie features tons of great technilogical concepts that I think individuals from different fields can enjoy. Firstly, the protagonist is a math prodigy, and he likes to solve puzzles. The conflict in the story occurs when the protagonist receives an email from an unknown sender, where he’s only given a sequence of characters, to which he assumes its a cypher and cracks it. Unbeknowst to him, it’s in actuality the hash code to the Oz digital world’s security system, in other words, the protagonist just hacked into the digital system that essentially governs society. He replies to the email with this code, and from this crucial (and mathematically improbable but not impossible) error, the recipient hacks into the protagonist’s account and starts to hack into the entire digital world. If that wasn’t crazy enough, this recipient is actually a script developed to accomplish all this AND upload an evolving AI, called Love Machine (what a great name though fr, also, I wonder if the name was inspired by the [ILOVEYOU malware](https://en.wikipedia.org/wiki/ILOVEYOU)) into the digital world that strengthens its own security and prevent crucial security and defense mechanisms from destroying or quarantining it. With this, the bot aims to unleash critical failure within the real world’s society, from messing with traffic signals, causing huge crashes and traffic, to crashing tech devices emergency services use, causing tons of uncontrolled fires and overall unsupervised chaos.
+
+![](https://64.media.tumblr.com/de5b4f8badb90566a9f9330061de7b9a/2a2c3db5b824bf48-2d/s540x810/fb19c207474781c83c8069590e446779282767cb.gifv)
+*The AI, Love Machine, taking control of the protagonist’s character and changing its appearance, i.e., Metaverse Hacking*
+
+(From this synopsis alone, we have covered: metaverse, mathematics, cyphers, hash codes, cybersecurity, artificial intelligence, phishing, and hacking. There’s tons more seen within the rest of the movie, of which I recommend you to see for yourself.)
+
+Interestingly, Oz is integrated within society itself - local governments, agencies, businesses, and practically everything you can think of associates itself within this digital world. You can imagine this as an extension of our current world - 20 years ago, I doubt anyone would have thought that a little 1 pound rectangular electrical device stronger than all of the pc’s at the time could be used to digitally act as a credit card and buy some takis, but here we are. As society integrates more components into the digital world, it takes a massive leap in creativity, convenience, and efficiency, but at a huge cost: security. Oz is supposed to have the most secure system in the world, but it’s not impossible to crack it. Herein, we are introduced to Love Machine’s ultimatum - unleashing weapons integrated within Oz.
+
+![](https://www.stat.go.jp/english/data/jinsui/2023np/img/15k2023-2.gif)
+*Japanese age demographics, Statistics Bureau of Japan*
+
+Obviously the danger of bombs and missiles being unleashed is a huge threat to every citizen of society, but even before that, just the idea of this metaverse, this rapid advancement and integration of tech, is at the cost of many civilians too. As seen in the image above, almost 30% of citizens in Japan are aged 65 and older. None of my late grandparents had any experience with the tech that was introduced within the 21st century; **they didn’t even understand what wi-fi was**. Everytime I visited them, I just suffered being cut off from the internet since they had no wi-fi (gen z problem fr). As such, imagine a society that now integrates everything in a metaverse system - potentially a third of the population doesn’t even comprehend what this is. Within the movie, even when media outlets start to broadcast the danger of Love Machine and its havoc onto the real world, none of Natsuki’s older family members had any idea of what catastrophe was being foreseen. That’s in film. Now in reality, how can such citizens stay in peace or stay logical about what steps to take next?
+
+---
+
+This movie has tons of great potential and application to the current world. I think tons of people have much sci-fi influence, and not necessarily in the greatest of ways (e.g., I don’t see how “uploading your conscious to a computer” does not equate to “I consent to potentially become a slave”). Our society is ever-evolving, with new tech being developed every day that originally exists to solve monumental problems. However, we should take a step back and recognize if there may exist side effects in this drug, and confirm if it’s really the best prescription to provide our society or if it’s just another quaalude. Not only should we enact a more refined, sophisticated approach in publicizing products, but as a society and government, I think the development of educational protocols to teach these technologies to the elderly (and various disadvantaged groups) is of high significance. We shouldn’t force everyone to use these advancements, but I believe that the amount of power each new device creates is practically a safety and security risk to those who don’t understand how they work. Here, I quote Clarke’s third law:
+
+> "Any sufficiently advanced technology is indistinguishable from magic" - [*Clarke*](https://en.wikipedia.org/wiki/Clarke%27s_three_laws)
+
+I recollect my late grandfather awe at how my iPad can easily provide directions (Google Maps) or pull up television (YouTube), all within the size of a notebook. Now imagine the strength of computers evolve exponentially every year - how could my late grandfather, or literally anyone else, keep up on the latest tech if they missed out on the explanation just once? Surely, [Superior Iron Man](https://villains.fandom.com/wiki/Superior_Iron_Man) is a god to the average citizen. But this rift in status only exists because no one excepts Tony comprehends the tech. The second a Prometheus snatches the flames that is Tony’s blueprints, the embers spread and elevate the rest of humanity to Olympus.
