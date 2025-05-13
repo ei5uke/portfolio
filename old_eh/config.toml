@@ -1,0 +1,66 @@
+baseURL = "https://ei5uke.github.io/"
+languageCode = "en-us"
+title = "Eisuke Hirota"
+theme = "hugo-theme-cactus"
+copyright = "Eisuke" # cactus will use title if copyright is not set
+disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
+
+
+# summaryLength = 2
+
+# Main menu which appears below site header.
+[[menu.main]]
+name = "about me"
+url = "/about_me"
+weight = 1
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    style = "dracula"
+    tabWidth = 4
+
+[params]
+  colortheme = "light" # dark, light, white, or classic
+  rss = false # generate rss feed. default value is false
+  googleAnalyticsAsync = false # use asynchronous tracking. Synchronous tracking by default
+  showAllPostsArchive = false # default
+
+  # Home page settings
+  description = "Welcome welcome. In this blog, you can find updates on whatever I'm currently doing at the moment. Have a fun stay :>"
+
+  logo = "logos/kittykat.png"
+
+  # the value of name should be an valid font awesome icon name (brands type)
+  # https://fontawesome.com/icons?d=gallery&s=brands
+  [[params.social]]
+    name = "file"
+    link = "/docs/eisuke_resume.pdf"
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/ei5uke"
+  [[params.social]]
+    name = "linkedin"
+    link = "https://www.linkedin.com/in/eisukeh/"
+  [[params.social]]
+    name = "scholar"
+    link = "https://scholar.google.com/citations?user=NBvMsAMAAAAJ&hl=en&oi=ao"
+  [[params.social]]
+    name = "email"
+    link = "ehirota13@gmail.com"  # no need for "mailto:" in the head
+  [[params.social]]
+    name = "twitter"
+    link = "https://twitter.com/eisukehirota"
+  [[params.social]]
+    name = "instagram"
+    link = "https://www.instagram.com/eisukehirota/"

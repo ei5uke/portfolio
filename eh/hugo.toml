@@ -1,0 +1,4 @@
+baseURL = "https://ei5uke.github.io/"
+languageCode = 'en-us'
+title = 'Eisuke Hirota'
+theme = "hugo-theme-nostyleplease"
