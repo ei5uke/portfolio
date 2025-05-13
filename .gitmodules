@@ -1,7 +1,6 @@
+[submodule "eh/themes/hugo-theme-nostyleplease"]
+	path = eh/themes/hugo-theme-nostyleplease
+	url = https://github.com/hanwenguo/hugo-theme-nostyleplease.git
 [submodule "eh/public"]
 	path = eh/public
 	url = https://github.com/ei5uke/ei5uke.github.io.git
-	branch = main
-[submodule "eh/themes/hugo-theme-nostylepleaseTEST"]
-	path = eh/themes/hugo-theme-nostylepleaseTEST
-	url = https://github.com/hanwenguo/hugo-theme-nostyleplease.git

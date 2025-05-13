@@ -1,0 +1,40 @@
+[[entries]]
+title = "about me"
+url = "me"
+  
+  [[entries.entries]]
+  title = "SUNY Binghamton, BS in Computer Science, 2021-2025"
+
+  [[entries.entries]]
+  title = "<a href='https://scholar.google.com/citations?user=NBvMsAMAAAAJ&hl=en&oi=ao'>google scholar</a>, <a href='https://github.com/ei5uke'>github</a>, <a href='https://www.goodreads.com/user/show/175425792-eisuke-hirota'>goodreads</a>"
+
+[[entries]]
+title = "publications"
+
+  [[entries.entries]]
+  title = "David DeFazio, Eisuke Hirota, Shiqi Zhang. Seeing-Eye Quadruped Navigation with Force Responsive Locomotion Control. Conference on Robot Learning, 2023."
+  url = "https://bu-air-lab.github.io/guide_dog/"
+
+  [[entries.entries]]
+  title = "Wenyu Han, Haoran Wu, Eisuke Hirota, Alexander Gao, Lerrel Pinto, Ludovic Righetti, Chen Feng. Learning Simultaneous Navigation and Construction in Grid Worlds. International Conference on Learning Representations, 2023."
+  url = "https://ai4ce.github.io/SNAC/"
+
+[[entries]]
+title = "blog"
+
+  [entries.post_list]
+  limit = 3
+  show_more = true
+  show_more_text = "all posts..."
+  show_more_url = "posts"
+
+[[entries]]
+title = "friends' awesome websites"
+
+  [[entries.entries]]
+  title = "SeniorMars"
+  url = "https://seniormars.com/"
+
+  [[entries.entries]]
+  title = "Chelsea"
+  url = "https://bosonphoton.github.io/"
