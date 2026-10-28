@@ -9,3 +9,6 @@ then cd public/
 git add .
 git commit -am "update"
 git push
+
+# image hints
+https://gohugo.io/shortcodes/figure/
