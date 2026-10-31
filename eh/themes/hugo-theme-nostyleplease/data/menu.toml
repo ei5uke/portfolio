@@ -1,0 +1,52 @@
+[[entries]]
+title = "about me"
+
+  [[entries.entries]]
+  title = "career bio"
+  url = "posts/me"
+
+  [[entries.entries]]
+  title = "random extra bio"
+  url = "posts/random"
+  
+  [[entries.entries]]
+  title = "<a target='_blank' rel='noopener noreferrer' href='https://scholar.google.com/citations?user=NBvMsAMAAAAJ&hl=en&oi=ao'>google scholar</a>, <a target='_blank' rel='noopener noreferrer' href='https://github.com/ei5uke'>github</a>, <a target='_blank' rel='noopener noreferrer' href='https://www.goodreads.com/user/show/175425792-eisuke-hirota'>goodreads</a>, <a target='_blank' rel='noopener noreferrer' href='https://letterboxd.com/eisukehirota/'>letterboxd</a>"
+
+[[entries]]
+title = "publications"
+  [[entries.entries]]
+  title = "<a target='_blank' rel='noopener noreferrer' href='https://liralab.usc.edu/comparative-language-feedback/'> Eisuke Hirota*, Zhaojing Yang*, Ayano Hiranaka, Miru Jun, Jeremy Tien, Stuart J. Russell, Anca Dragan, Erdem Bıyık. \"Active Reward Learning and Iterative Trajectory Improvement from Comparative Language Feedback,\" International Journal of Robotics Research (IJRR), 2025.</a>"
+
+  [[entries.entries]]
+  title = "<a target='_blank' rel='noopener noreferrer' href='https://bu-air-lab.github.io/guide_dog/'>David DeFazio, Eisuke Hirota, Shiqi Zhang. \"Seeing-Eye Quadruped Navigation with Force Responsive Locomotion Control,\" Conference on Robot Learning (CoRL), 2023.</a>"
+
+  [[entries.entries]]
+  title = "<a target='_blank' rel='noopener noreferrer' href='https://ai4ce.github.io/SNAC/'>Wenyu Han, Haoran Wu, Eisuke Hirota, Alexander Gao, Lerrel Pinto, Ludovic Righetti, Chen Feng. \"Learning Simultaneous Navigation and Construction in Grid Worlds,\" International Conference on Learning Representations (ICLR), 2023.</a>"
+
+[[entries]]
+title = "reviews about stuff I'm interested in"
+  [[entries.entries]]
+  title = "ramen"
+  url = "posts/reviews/ramen"
+
+  [[entries.entries]]
+  title = "more..."
+  url = "posts/reviews"
+
+[[entries]]
+title = "blog"
+
+  [entries.post_list]
+  limit = 3
+  show_more = true
+  show_more_text = "all posts..."
+  show_more_url = "posts/posts"
+  
+[[entries]]
+title = "friends' awesome websites"
+
+  [[entries.entries]]
+  title = "<a target='_blank' rel='noopener noreferrer' href='https://seniormars.com/'>SeniorMars</a>"
+
+  [[entries.entries]]
+  title = "<a target='_blank' rel='noopener noreferrer' href='https://bosonphoton.github.io/'>Chelsea</a>"

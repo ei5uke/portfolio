@@ -1,0 +1,27 @@
++++
+title =  "Ai/Robots in Fiction ver. 3 -- Ai: The Somnium Files"
+date = 2024-12-04T13:34:54+02:00
+draft = false
++++
+
+AI: The Somnium Files is a murder mystery game created by Kotaro Uchikoshi, known for the Zero Escape series (AMAZING STUFF). You play as Date, an amnesiac detective and aim to solve a potential revived serial killing in a futuristic society. While I can definitely talk all day about the entire plot and twists that happen throughout the game, I’ll just stick to the AI stuff.
+
+The entire core of AI in this game follows a single character, but before we get into that, I first want to give a little background, specifically, the title of the game.
+
+The title is creatively a triple entendre. Firstly, AI stands for artificial intelligence of course. Secondly, it also stands for the word “love” in Japanese, 愛, read phonetically as “ai” (which is significant to the plot). Lastly, through classic Japanese pun wordplay, the sidekick of the protagonist goes by the name Aiba, short for Ai-ball, because she’s an AI that acts as Date’s prosthetic eyeball.
+
+![](https://www.spike-chunsoft.com/ai/images/character/modal/01/face.png)
+*Aiba (yellow eye) sits in Date’s left eyesocket.*
+
+For more context, Aiba is a specialized AI designed by a government lab, and her existence is secret to the public. Hence, Date is priveleged to use such advanced technology, albeit her capabilities potentially render her too dangerous for public usage. Specifically, she can record visual data she sees, act as a cell phone to call people, hack into pretty much any personal computer, simulate near-future events to assist Date in combat, easily identify any object, use X-ray vision, and even jump out of Date’s eyesocket and turn into a cute little gel robot mouse-looking thing to walk and carry small items!
+
+![](https://64.media.tumblr.com/0ae9bec166ca87183ac7f04e1d95354d/14178b8f47bd41ef-af/s540x810/505d9ef707ba065a6252969d5e7128a699454c5b.gif)
+*Aiba out of Date’s eyesocket. Cute mouse.*
+
+But most interestingly, Aiba is arguably conscious. She pretty much acts as her own individual, albeit her main task is to assist Date’s detective errands. As such, Aiba need not Date’s direct command to act on certain things – she can perform any of the features I previously mentioned as long as she feels it’s commmon sense reasonable. Henceforth, rather than like JARVIS with Iron Man, Aiba is more of a Robin to Batman (except it’s a 10 billion dollar mecha-weapon). JARVIS is like a butler that provides services, Aiba is a detective partner. I find this fascinating for a multitude of reasons:
+
+1. She’s a secret tool made by the government. Of course, government labs prioritize in prototyping and producing products/tools that can give their respective country any possible edge. In this game, Aiba is one of them (although the game mainly revolves around a technology called Somnium). In our current world, it seems that industry has the lead regarding AI according to the [2024 AI Index](https://aiindex.stanford.edu/report/). I mean, it’s obvious that if governments had some super secret tool, they wouldn’t publicize it, akin to how Aiba is kept top secret to the public. That being said, the breakthroughs regarding foundation models from industry is so revolutionary, I’d doubt government labs are ahead especially with the context that there’s a huge money incentive difference.
+2. She’s kinda silly. One time during a forensic analysis, she legit does the [Exile train dance](https://www.youtube.com/watch?v=BDGUaK0SpqA) (a bit old but everyone in Japan knows of this). Is this what we want out of a detective partner… Don’t ask me. As long as Date and her are effective that’s all that matters I guess....
+3. She has a built-in bomb. I purposely left this feature out from my previous explanation of her capabilities because I believe one could argue that she has no means of violence, so people are ok with her running around with an amnesiac detective. However, she indeed has a built-in bomb, specifically as a last ditch option to self-destruct if the wrong person gains control of Aiba. Supposedly, this one mechanic works only when Date states a keyword, but I’d argue that a court judge would not buy it and could argue that Aiba did this out of her own decision. Particularly, Date’s personality (? conscious?) said “41205” in a different body occurred due to a body swap, and since Aiba was in Date’s original body at the time, she self-destructed herself and blew up Date’s original body (with a different personality/consious inside). So, does this imply that Aiba is harcoded to self-destruct when Date’s personality/consciousness, not the body or voice or DNA, says the keyword? How is that even possible to code into someone. Answer? It’s not. Thus, Aiba must have the agency to perform such action, and is such conscious.
+
+As such, Aiba is possibly a continuous threat to the public. She has insane features and holds the general capabilities to perform them to complete her goals. Fortunately, she’s made to perform good deeds (catching serial killers), but give the same technology to the wrong person and who knows what comes next. Of course this is just a game, a game theory (ok sorry for that one), so it’s fun to see sci-fi works like this and interact with it in game. But while it’s great to enjoy such mechanics in fiction storytelling, I think we need to take a step back and check if we should be glorifying such technology or just simply relish video games as a pastime and hobby.
