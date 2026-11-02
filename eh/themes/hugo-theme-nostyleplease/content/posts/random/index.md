@@ -3,7 +3,18 @@ title =  "random extra bio"
 draft = false
 +++
 
-here I write completely random stuff.
+here I write completely random stuff about me.
+
+## 🎮 current (as of Nov 2026) hobby rotation
+- street fighter 6: the main game I play solo, though I have other games in rotation to play w friends. I'd like to get better at it, but I think I've underestimated how hard it is to get good and am thus hardstuck.
+    - I've gotten so far: Ed, Ryu, Cammy, Ingrid, Jamie to master rank. I mainly now play Jamie and aim to climb up as high as possible with him.
+    - controller: [ArcadeShock](https://arcadeshock.com/) traveller leverless case; thirteen 24mm Flashtaps + two 30mm Flashtaps (the blue buttons); three sanwa 24mm purely for option/ps/share button (the orange ones); brook gen 5 fighting board. This was my first time making a custom leverless and I struggled a lot with getting clean wire management. Nonetheless, I really like the entire setup - particularly the button layout since I like using my left thumb for jump and my right thumb for drive impact - and I'll hope to use this for a long while.
+        {{< figure
+        src="my_leverless.jpg"
+        width=350px
+        >}}
+- boxing: go around twice a week, in addition to jogging once or twice a week. objective: fun, exercise, stress-release, challenge, etc.
+- read books; watch movies.
 
 ## 🦑 My thoughts on food
 - If I could, I'd be eating 24/7. I like food a lot and can talk about it for years. 

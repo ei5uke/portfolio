@@ -1,11 +1,12 @@
 +++
 title =  "Ramen Reviews"
 draft = false
+layout = "single"
 +++
 
 All ramen I've reviewed, in a table format. **Shop** goes to Google Maps link; **Ramen** goes to my review. I do note that my ratings have gotten more strict over time, so I'd say my most recent reviews are more accurate w.r.t my actual tastes.
 
-(I still have to add roughly 35 more reviews to this table, so it's not fully up-to-date.)
+(I still have to add roughly 35 more reviews to this table, so it's not fully up-to-date. If you want to see all updates, you can check [my instagram stories](https://www.instagram.com/stories/highlights/17925734720891898/))
 
 | # | Shop        | Ramen           | Price  | Rating | Last date I had it |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |

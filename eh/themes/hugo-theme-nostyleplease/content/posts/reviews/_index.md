@@ -1,6 +1,7 @@
 +++
 title =  "reviews about stuff I'm interested in"
 draft = false
+layout = "single"
 +++
 
 I like to review stuff and have people listen to my opinions, so here's a compilation.

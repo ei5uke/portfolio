@@ -68,10 +68,23 @@ body[a="light"] { @include light-appearance; }
 
 // -------------------------------------------- //
 
+// Self-hosted so every OS renders the same font (static/fonts, SIL OFL)
+@each $weight in 400, 700 {
+  @each $style in normal, italic {
+    @font-face {
+      font-family: "JetBrains Mono";
+      font-style: $style;
+      font-weight: $weight;
+      font-display: swap;
+      src: url("/fonts/jetbrains-mono-latin-#{$weight}-#{$style}.woff2") format("woff2");
+    }
+  }
+}
+
 html { height: 100%; }
 
 body {
-  font-family: Lucida Console;
+  font-family: "JetBrains Mono", monospace;
   font-size: 13px;
   line-height: 1.4;
   margin: 0;
@@ -112,6 +125,7 @@ table, th, td {
 }
 
 code {
+  font-family: inherit;
   text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;

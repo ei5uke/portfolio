@@ -10,10 +10,16 @@ title = "about me"
   url = "posts/random"
   
   [[entries.entries]]
-  title = "<a target='_blank' rel='noopener noreferrer' href='https://scholar.google.com/citations?user=NBvMsAMAAAAJ&hl=en&oi=ao'>google scholar</a>, <a target='_blank' rel='noopener noreferrer' href='https://github.com/ei5uke'>github</a>, <a target='_blank' rel='noopener noreferrer' href='https://www.goodreads.com/user/show/175425792-eisuke-hirota'>goodreads</a>, <a target='_blank' rel='noopener noreferrer' href='https://letterboxd.com/eisukehirota/'>letterboxd</a>"
+  title = "etc: <a target='_blank' rel='noopener noreferrer' href='https://scholar.google.com/citations?user=rzKxt-AAAAAJ&hl=en&oi=ao'>google scholar</a>, <a target='_blank' rel='noopener noreferrer' href='https://github.com/ei5uke'>github</a>, <a target='_blank' rel='noopener noreferrer' href='https://www.goodreads.com/user/show/175425792-eisuke-hirota'>goodreads</a>, <a target='_blank' rel='noopener noreferrer' href='https://letterboxd.com/eisukehirota/'>letterboxd</a>"
 
 [[entries]]
 title = "publications"
+  [[entries.entries]]
+  title = "Eisuke Hirota*, Letian Chen*, Yaru Niu*, et al. \"Learning Interpretable, High-Performing Policies for Continuous Control,\" Under Review."
+
+  [[entries.entries]]
+  title = "<a target='_blank' rel='noopener noreferrer' href='https://arxiv.org/pdf/2610.10367'> Eisuke Hirota, Aarav Sane, Rohan Paleja. \"Action Chunking for Temporal Interpretability in Differentiable Decision Trees,\" ArXiv, 2026.</a>"
+
   [[entries.entries]]
   title = "<a target='_blank' rel='noopener noreferrer' href='https://liralab.usc.edu/comparative-language-feedback/'> Eisuke Hirota*, Zhaojing Yang*, Ayano Hiranaka, Miru Jun, Jeremy Tien, Stuart J. Russell, Anca Dragan, Erdem Bıyık. \"Active Reward Learning and Iterative Trajectory Improvement from Comparative Language Feedback,\" International Journal of Robotics Research (IJRR), 2025.</a>"
 

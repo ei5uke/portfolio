@@ -13,11 +13,11 @@ Hello, I’m Eisuke (英祐). I'm generally interested in machine learning, prob
 - Education:
     - University of Southern California, MS in CS (expected Dec 2027)
     - SUNY Binghamton, BS in Computer Science (graduated May 2025)
+- Professional Experience:
+    - VinMotion, Prof. Quan Nguyen (Summer-Winter 2026)
+    - MIT Lincoln Laboratory, Dr. Erfaun Noorani and Jason Nezvadovitz (Summer 2025)
 - Research Experience:
     - University of Southern California, Prof. Erdem Biyik (2026-present, 2024-2025)
     - Purdue University, Prof. Rohan Paleja (2025-present) 
     - SUNY Binghamton, Prof. Shiqi Zhang (2022-2024)
     - New York University, Prof. Chen Feng (2022-2023)
-- Professional Experience:
-    - VinMotion, Prof. Quan Nguyen (Summer 2026)
-    - MIT Lincoln Laboratory, Dr. Erfaun Noorani and Jason Nezvadovitz (Summer 2025)
